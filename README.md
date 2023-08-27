@@ -1,2 +1,3 @@
-# nomadcoders_kokoatalk
-nomadcoders_kokoatalk_clone coding
+# nomadcoders_kokoatalk_clone
+
+Let's start kokoatalk clone
