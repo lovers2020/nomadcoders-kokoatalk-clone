@@ -130,3 +130,6 @@ table {
 #login-form input:focus {
   outline: none;
 }
+a {
+  color: inherit;
+}

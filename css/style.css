@@ -2,8 +2,10 @@
 @import "variable.css";
 /* Componenets */
 @import "/components/status-bar.css";
+@import "/components/nav-bar.css";
 /* screens */
 @import "/screens/login.css";
+
 
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
