@@ -42,6 +42,10 @@
 }
 .open-post {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: var(--main-border);
 }
 
 .open-post__members {
@@ -78,4 +82,28 @@
   height: 15px;
   background-color: var(--font-gray);
   margin: 0px 5px;
+}
+.open-post__column:last-child img {
+  object-fit: cover;
+  width: 110px;
+  height: 110px;
+  border-radius: 10%;
+}
+.open-post__photo {
+  position: relative;
+}
+.open-post__heart-count {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+  font-size: 12px;
+}
+.open-post__heart-count span {
+  margin-left: 5px;
+  font-weight: 100;
 }
