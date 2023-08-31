@@ -10,19 +10,19 @@
   object-fit: cover;
   width: 60px;
   height: 60px;
-  border-radius: 40%;
+  border-radius: 35%;
   margin-right: 20px;
 }
 
 .user-component__avatar--xl {
   width: 70px;
   height: 70px;
-  border-radius: 25px;
+  border-radius: 40%;
   margin-right: 20px;
 }
 .user-component__title {
   font-weight: 700;
-  font-size: 22px;
+  font-size: 20px;
 }
 .user-component__subtitle {
   margin-top: 8px;
@@ -32,7 +32,7 @@
 .user-component__avatar--sm {
   width: 50px;
   height: 50px;
-  border-radius: 25px;
+  border-radius: 30%;
   margin-right: 20px;
 }
 .user-component__title--not-bold {

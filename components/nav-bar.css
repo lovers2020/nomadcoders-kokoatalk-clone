@@ -1,7 +1,7 @@
 .nav {
   background-color: #f9f9fa;
   border-top: 1px solid rgba(121, 121, 121, 0.3);
-  padding: 20px 40px;
+  padding: 15px 40px;
   width: 100%;
   position: fixed;
   bottom: 0;
@@ -17,16 +17,16 @@
 }
 .nav__notification {
   background-color: tomato;
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 15px;
+  border-radius: 50%;
   color: white;
   font-weight: 600;
   position: absolute;
-  left: 15px;
+  left: 17px;
   bottom: 15px;
 }
 .nav__setting {
