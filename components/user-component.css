@@ -1,0 +1,15 @@
+.user-component {
+  display: flex;
+}
+.user-component__column {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  padding: 20px 20px;
+}
+.user-component .user-component__avarta {
+  width: 60px;
+  height: 60px;
+  border-radius: 40%;
+  margin-right: 20px;
+}
