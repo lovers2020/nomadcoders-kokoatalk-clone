@@ -10,6 +10,14 @@
   font-size: 28px;
   font-weight: 600;
 }
+.screen-header__icon {
+  position: relative;
+}
 .screen-header__icon i {
   margin-left: 25px;
+}
+.screen-header__icon .point {
+  position: absolute;
+  right: -8px;
+  top: -8px;
 }
