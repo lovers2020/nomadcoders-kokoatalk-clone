@@ -48,3 +48,9 @@
   display: block;
   margin-bottom: 5px;
 }
+.user-component__exclmation {
+  font-size: 12px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  padding: 0px 5px;
+  border-radius: 50%;
+}

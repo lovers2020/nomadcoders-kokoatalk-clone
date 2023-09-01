@@ -7,6 +7,7 @@
 @import "/components/user-component.css";
 @import "/components/badge.css";
 @import "/components/point.css";
+@import "/components/icon-row.css";
 /* screens */
 @import "/screens/login.css";
 @import "/screens/friends.css";
