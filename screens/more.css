@@ -14,6 +14,9 @@
 }
 .more-suggestions__icon {
   margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .more-suggestions__icon-image {
   width: 60px;
@@ -23,4 +26,10 @@
   border-radius: 20%;
   display: flex;
   align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.more-suggestions__icon-text {
+  color: var(--font-gray);
 }
