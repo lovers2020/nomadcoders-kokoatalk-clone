@@ -1,0 +1,5 @@
+.settings__setting {
+  padding: 20px 0px;
+  border-bottom: var(--main-border);
+  font-size: 18px;
+}
