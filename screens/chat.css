@@ -3,8 +3,41 @@
   height: 1000vh;
 }
 
+#chat-screen .status-bar,
 #chat-screen .alt-screen-header {
   position: fixed;
+  top: 0px;
   width: 100%;
   box-sizing: border-box;
+  background-color: #abc1d1;
+}
+#chat-screen .status-bar {
+  z-index: 2;
+}
+#chat-screen .alt-screen-header {
+  z-index: 1;
+}
+.main-chat {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chat__timestamp {
+  font-size: 14px;
+  border-radius: 20px;
+  padding: 5px 20px;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: #92a4b2;
+}
+,
+.meassage-row {
+  width: 100%;
+  display: flex;
+}
+.meassage-row img {
+  width: 50px;
+  height: 50px;
+  border-radius: 40%;
+  margin-right: 15px;
 }
