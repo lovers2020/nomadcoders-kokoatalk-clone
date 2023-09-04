@@ -21,4 +21,14 @@
   right: -8px;
   top: -8px;
 }
-.screen-header__icons {
+@keyframes rotateGear{
+  from{
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+.screen-header__icon .fa-gear:hover {
+  animation: rotateGear 1s linear infinite;
+}
