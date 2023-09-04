@@ -32,7 +32,6 @@
   padding-bottom: 10px;
   border-bottom: var(--main-border);
 }
-
 .open-post__members {
   display: flex;
   align-items: center;
