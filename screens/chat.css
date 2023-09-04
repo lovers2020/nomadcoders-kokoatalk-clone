@@ -18,7 +18,7 @@
   z-index: 1;
 }
 .main-chat {
-  margin-top: 150px;
+  margin-top: 110px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,6 +27,7 @@
   font-size: 14px;
   border-radius: 20px;
   padding: 5px 20px;
+  margin-bottom: 20px;
   color: rgba(255, 255, 255, 0.7);
   background-color: #92a4b2;
 }
@@ -35,11 +36,21 @@
   display: flex;
   margin-bottom: 25px;
 }
+
+@keyframes authorRotate {
+  from {
+    transform: rotateY(360deg);
+  }
+  to {
+    transform: none;
+  }
+}
 .meassage-row img {
   width: 50px;
   height: 50px;
   border-radius: 40%;
   margin-right: 15px;
+  animation: authorRotate 2s ease-in-out;
 }
 .message_author {
   opacity: 0.8;
